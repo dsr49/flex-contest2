@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+
+
+
+<style>
+     body {
+            padding: 10px;
+            background-color: rgb(15, 17, 15);
+            color: white;
+            font-family: 'Inter', sans-serif;
+        }
+    .full   {
+        display: flex;
+        /* border: 2px dashed red; */
+       
+    }
+    .row{
+        flex-direction: row;
+        /* margin: 20px; */
+    }
+    
+    .pic{
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            line-height: 15px;
+            height: 150px;
+            
+            
+    }    
+    .header{
+        border: 2px grey solid;
+        border-radius: 12px;
+            padding: 20px;
+            padding-left: 40px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+    }
+    .section{
+        margin-top:  20px;
+        border: 2px grey solid;
+            border-radius: 12px;
+            padding: 1.3rem;
+
+    }
+    
+    img{
+        border-radius: 50%;
+        width: 150px;
+    }
+    .links>div>a {
+            color: #8e8e8e ;
+            text-decoration: none;
+            
+            
+        }
+        .links {
+        
+            padding: 30px;
+            line-height: 28px;
+            
+    }
+    li {
+            padding: 5px;
+    }
+    .task{
+        width: 65vw;
+        padding: 1.5rem;
+        font-size: 1.1em;
+    }
+    table{
+        color: #b4b4b4 ;
+        border: 2px grey solid;
+            border-radius: 15px;
+            margin-top: 1.1rem;
+    }
+    td{
+            padding: 0.4em;}
+    .center ,table>tbody> tr> td> input.center{
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            border-right: 2px grey solid;
+
+    }
+    th{
+            border-bottom: 2px grey solid;
+            text-align: start;
+            padding: 20px;
+    }
+    th.head{
+        border-right: 2px grey solid;
+        }
+        .checkmark {
+            height: 15px;
+            width: 15px;
+            background-color:  rgb(15, 17, 15);
+            accent-color: rgb(217, 0, 0);
+            opacity: 0.4;
+        }
+        th.head-task   {
+            width: 100%;
+        }
+        p{
+            font-size: 2.3rem;
+            margin: 0%;
+        }
+        .tableHead{
+            padding-top: 0%;
+            
+        }
+        p.name{
+            padding-top: 1.2rem;
+            font-size: 1.3rem;
+        }
+        .space{
+            display: inline-block;
+            padding: 0.5px;
+        }
+        @media (max-width: 641px){
+        .full   {
+           
+            flex-direction: column;
+        }
+        .header{
+            width: 88vw;
+            margin-right: 20px;
+
+        }
+        .container{
+
+            width: 100vw;
+            margin-right: 0%;
+            padding: 0%;
+        }
+        .task{
+            width: 100vw;
+            margin: 0%;
+            padding: 0%;
+        }
+        .row{
+        }
+
+            
+        }
+
+
+
+</style>
+
+
+
+
+</head>
+<body>
+    <p class="header">EMPLOYEE DASHBOARD</p>
+    <div class="full">
+
+        <div class="row">
+            
+        
+            <div class="container">
+                
+            
+            <div class="pic section ">
+                <img src="/360_F_320988039_MtlKZNKQL60nNChRVxyHljbvyWWQQw6c.jpg" alt="user profile picture">
+                <p class="name">JOHN STARK</p>
+            </div>
+            
+            
+            <div class="details section ">
+                <ul>
+                    <li>NAME : JOHN STARK</li>
+                    <li>USERNAME : JOHNSTARK29</li>
+                    <li>EMAIL : JOHNSTARK@OFFICE.COM</li>
+                    <li>AGE : 18 YEARS</li>
+                    <li>GENDER : MALE</li>
+                    <li>LOCATION : NEW DELHI</li>
+                </ul>
+            </div>
+            
+            <div class="links section ">
+                <div>
+                    <a href="https://mail.google.com/mail/dushyantrat66@gmail.com">
+                        
+                        <i class="fa fa-envelope"></i>
+                        &nbsp; &nbsp;  EMAIL
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/">
+                        <i class='fa fa-facebook'></i> 
+                        <span>
+                            &nbsp; &nbsp;  
+                            <div class="space"></div>
+                            FACEBOOK
+                            
+                    </span>
+                </a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/">
+                    <i class="fa fa-instagram"></i>
+                    &nbsp; &nbsp; INSTAGRAM
+                </a>
+            </div>
+            <div>
+                <a href="https://github.com">
+                    <i class="fa fa-github"></i>
+                    &nbsp; &nbsp; GITHUB
+                </a>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+        <div class="row">
+            
+            <div class="task">
+                <p class="tableHead">
+
+                    Tasks Given To Employee
+                </p>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="head">ID</th>
+                            <th class="head">STATUS</th>
+                            <th class="head-task">TASK</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="center">1</td>
+                            <td class="center" class="checkmark"><input type="checkbox" class="center checkmark"></td>
+                            <td class="task-points" >TASK 1 - LOREM IPSUM</td>
+                        </tr>
+                        <tr>
+                            <td class="center">2</td>
+                            <td class="center" class="checkmark"><input type="checkbox" class="center checkmark"></td>
+                            <td class="task-points" >TASK 1 - LOREM IPSUM</td>
+                        </tr>
+                        <tr>
+                            <td class="center">3</td>
+                            <td class="center" class="checkmark"><input type="checkbox" class="center checkmark "></td>
+                            <td class="task-points">TASK 1 - LOREM IPSUM</td>
+                        </tr>
+                        <tr>
+                            <td class="center">4</td>
+                            <td class="center" class="checkmark"><input type="checkbox" class="center checkmark"></td>
+                            <td class="task-points">TASK 1 - LOREM IPSUM</td>
+                        </tr>
+                        <tr>
+                            <td class="center">5</td>
+                            <td class="center" class="checkmark"><input type="checkbox" class="center checkmark"></td>
+                            <td class="task-points">TASK 1 - LOREM IPSUM</td>
+                        </tr>
+                        <tr>
+                            <td class="center">6</td>
+                            <td class="center" class="checkmark"><input type="checkbox" class="center checkmark"></td>
+                            <td class="task-points">TASK 1 - LOREM IPSUM</td>
+                        </tr>
+                        <tr>
+                            <td class="center">7</td>
+                            <td class="center" class="checkmark"><input type="checkbox" class="center checkmark"></td>
+                            <td class="task-points">TASK 1 - LOREM IPSUM</td>
+                        </tr>
+                        <tr>
+                            <td class="center">8</td>
+                            <td class="center" class="checkmark"><input type="checkbox" class="center checkmark"></td>
+                            <td class="task-points">TASK 1 - LOREM IPSUM</td>
+                        </tr>
+                        <tr>
+                            <td class="center">9</td>
+                            <td class="center" ><input type="checkbox" class="center checkmark"></td>
+                            <td class="task-points">TASK 1 - LOREM IPSUM</td>
+                        </tr>
+                        <tr>
+                            <td class="center">10</td>
+                            <td class="center" class="checkmark"><input type="checkbox" class="center checkmark"></td>
+                            <td class="task-points">TASK 1 - LOREM IPSUM</td>
+                        </tr>
+                        <tr>
+                            <td class="center">11</td>
+                            <td class="center" class="checkmark"><input type="checkbox" class="center checkmark"></td>
+                            <td class="task-points">TASK 1 - LOREM IPSUM</td>
+                        </tr>
+                        <tr>
+                            <td class="center">12</td>
+                            <td class="center" class="checkmark"><input type="checkbox" class="center checkmark"></td>
+                            <td class="task-points">TASK 1 - LOREM IPSUM</td>
+                        </tr>
+                        <tr>
+                            <td class="center">13</td>
+                            <td class="center" class="checkmark"><input type="checkbox" class="center checkmark"></td>
+                            <td class="task-points">TASK 1 - LOREM IPSUM</td>
+                        </tr>
+                        <tr>
+                            <td class="center">14</td>
+                            <td class="center" class="checkmark"><input type="checkbox" class="center checkmark"></td>
+                            <td class="task-points">TASK 1 - LOREM IPSUM</td>
+                        </tr>
+                        
+                        
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    
+</div>
+</body>
+</html>
